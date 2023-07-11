@@ -1,0 +1,10 @@
+data modify storage tower_defence:data temp set value []
+data modify storage tower_defence:data temp append value {Count:1b,Slot:2b, id:"minecraft:blaze_powder",tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Flaming Tower"}',  Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:10b,id:"minecraft:ice",         tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Ice Tower"}',      Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:12b,id:"minecraft:tnt",         tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Explosive Tower"}',Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:20b,id:"minecraft:potion",      tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Magic Tower"}',    Lore:[]},Enchantments:[{id:"minecraft:flame",lvl:1}]}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:6b, id:"minecraft:trident",     tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Drowned Tower"}',  Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:14b,id:"minecraft:crossbow",    tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Piercing Tower"}', Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:16b,id:"minecraft:bow",         tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Archery Tower"}',  Lore:[]}}}
+data modify storage tower_defence:data temp append value {Count:1b,Slot:24b,id:"minecraft:shield",      tag:{tower_defense:{tower:1b},HideFlags:255,display:{Name:'{"italic": false,"color": "#54FCFC","text": "Tanking Tower"}',  Lore:[]}}}
+data modify block ~ ~ ~ Items set from storage tower_defence:data temp
