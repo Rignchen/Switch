@@ -6,6 +6,7 @@ scoreboard players add #tower_defense_ticks switch.data 1
 # execute as @a[scores={switch.temp.deathCount=1..},x=0,y=69,z=0,distance=..10,sort=random] run function switch:modes/tower_defense/death
 
 execute as @e[type=marker] at @s run function switch:modes/tower_defense/tick/marker/
+execute as @e[type=allay,tag=tower_defence.mob.spawner] at @s run function switch:modes/tower_defense/tick/marker/spawner/
 execute as @e[tag=switch.tower_defense.mob] at @s run function switch:modes/tower_defense/tick/mob/
 execute as @a at @s run function switch:modes/tower_defense/tick/player/
 

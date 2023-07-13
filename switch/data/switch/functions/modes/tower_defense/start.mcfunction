@@ -8,6 +8,15 @@ difficulty normal
 time set noon
 weather clear
 
+team add tower_defense.red
+team modify tower_defense.red color red
+team modify tower_defense.red collisionRule pushOtherTeams
+team modify tower_defense.red friendlyFire false
+team add tower_defense.blue
+team modify tower_defense.blue color blue
+team modify tower_defense.blue collisionRule pushOtherTeams
+team modify tower_defense.blue friendlyFire false
+
 scoreboard objectives add tower_defense.temp dummy
 scoreboard objectives add tower_defense.coin dummy
 scoreboard objectives add tower_defense.id dummy
@@ -33,3 +42,4 @@ scoreboard objectives add switch.temp.deathCount deathCount
 #define storage tower_defence:data
 
 data modify storage switch:main current_game set value "tower_defense"
+scoreboard players set test test 0

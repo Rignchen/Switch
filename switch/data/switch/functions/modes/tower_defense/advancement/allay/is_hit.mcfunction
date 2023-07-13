@@ -1,0 +1,2 @@
+execute store result score #temp tower_defense.temp run data get entity @s Health
+execute if score #temp tower_defense.temp matches ..10 run function switch:modes/tower_defense/advancement/allay/is_killed

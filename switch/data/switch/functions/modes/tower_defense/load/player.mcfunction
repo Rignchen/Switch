@@ -4,6 +4,7 @@ gamemode adventure @s
 team join switch.no_pvp @s
 effect give @s saturation infinite 255 true
 effect give @s regeneration infinite 255 true
+team leave @s
 
 function switch:modes/tower_defense/load/teams
 function switch:modes/tower_defense/load/item

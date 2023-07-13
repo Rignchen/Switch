@@ -1,40 +1,40 @@
 kill @e[type=!player]
 
-execute positioned -34 0 -16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -28 0 -16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -22 0 -16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 2 0 -16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -22 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -10 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 2 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 14 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 20 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 26 0 -10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -34 0 -4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -10 0 -4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 14 0 -4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -34 0 4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -10 0 4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 14 0 4 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -22 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -10 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 2 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 14 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 20 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 26 0 10 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -34 0 16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -28 0 16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned -22 0 16 run function switch:modes/tower_defense/set_tower_barrel/
-execute positioned 2 0 16 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111004 102 111004 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111010 102 111004 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111016 102 111004 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111040 102 111004 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111016 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111028 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111040 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111052 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111058 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111064 102 111010 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111004 102 111016 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111028 102 111016 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111052 102 111016 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111004 102 111024 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111028 102 111024 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111052 102 111024 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111016 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111028 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111040 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111052 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111058 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111064 102 111030 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111004 102 111036 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111010 102 111036 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111016 102 111036 run function switch:modes/tower_defense/set_tower_barrel/
+execute positioned 111040 102 111036 run function switch:modes/tower_defense/set_tower_barrel/
 
-summon marker -36 0 -8 {Tags:["tower_defence.door","tower_defence.team.red"]}
-summon marker -36 0 -9 {Tags:["tower_defence.door","tower_defence.team.red"]}
-summon marker -36 0 -11 {Tags:["tower_defence.door","tower_defence.team.red"]}
-summon marker -36 0 -12 {Tags:["tower_defence.door","tower_defence.team.red"]}
-summon marker -36 0 -10 {Tags:["tower_defence.door","tower_defence.team.red"]}
+summon marker 111002 102 111012 {Tags:["tower_defence.door","tower_defence.team.red"]}
+summon marker 111002 102 111011 {Tags:["tower_defence.door","tower_defence.team.red"]}
+summon marker 111002 102 111009 {Tags:["tower_defence.door","tower_defence.team.red"]}
+summon marker 111002 102 111008 {Tags:["tower_defence.door","tower_defence.team.red"]}
+summon marker 111002 102 111010 {Tags:["tower_defence.door","tower_defence.team.red"]}
 
-summon marker -36 0 8 {Tags:["tower_defence.door","tower_defence.team.blue"]}
-summon marker -36 0 9 {Tags:["tower_defence.door","tower_defence.team.blue"]}
-summon marker -36 0 10 {Tags:["tower_defence.door","tower_defence.team.blue"]}
-summon marker -36 0 11 {Tags:["tower_defence.door","tower_defence.team.blue"]}
-summon marker -36 0 12 {Tags:["tower_defence.door","tower_defence.team.blue"]}
+summon marker 111002 102 111028 {Tags:["tower_defence.door","tower_defence.team.blue"]}
+summon marker 111002 102 111029 {Tags:["tower_defence.door","tower_defence.team.blue"]}
+summon marker 111002 102 111030 {Tags:["tower_defence.door","tower_defence.team.blue"]}
+summon marker 111002 102 111031 {Tags:["tower_defence.door","tower_defence.team.blue"]}
+summon marker 111002 102 111032 {Tags:["tower_defence.door","tower_defence.team.blue"]}

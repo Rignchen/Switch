@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"slime":{
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "husk"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "switch:modes/tower_defense/calls/advancement/allay"
+	}
+}

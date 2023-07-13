@@ -27,4 +27,5 @@ scoreboard players set #giant tower_defense.coin 100
 #mob spawn
 scoreboard players set #slime_spawn_time tower_defense.temp 30
 scoreboard players set #slime_spawn_amount tower_defense.temp 3
-scoreboard players set #chicken_spawn_time tower_defense.temp 50
+scoreboard players set #chicken_lay_egg_time tower_defense.temp 226
+scoreboard players set #chicken_hatch_time tower_defense.temp 50
