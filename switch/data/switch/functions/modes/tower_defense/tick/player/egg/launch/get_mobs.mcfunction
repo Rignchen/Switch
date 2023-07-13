@@ -30,5 +30,4 @@ execute if score #temp tower_defense.temp matches 1.. run function switch:modes/
 execute store result score #temp tower_defense.temp run clear @s zombie_spawn_egg{           Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],display:{Name:'{"text": "Giant"}'}}
 execute if score #temp tower_defense.temp matches 1.. run function switch:modes/tower_defense/tick/player/egg/launch/mob/giant
 
-clear @s #spawn_egg
-function switch:modes/tower_defense/load/mob_eggs
+function switch:modes/tower_defense/tick/player/egg/reset

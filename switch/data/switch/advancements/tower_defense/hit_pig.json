@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"slime":{
+			"trigger": "player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "pig"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "switch:modes/tower_defense/calls/advancement/pig"
+	}
+}

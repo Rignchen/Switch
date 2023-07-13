@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ redstone_wire run function switch:modes/tower_defense/tick/mob/motion

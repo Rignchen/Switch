@@ -1,0 +1,1 @@
+execute as @e[type=slime] unless score @s tower_defense.coin matches 1 at @s run function switch:modes/tower_defense/advancement/slime/is_hit
