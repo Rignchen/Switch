@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\": \"Slime\",\"italic\": false}'},HideFlags:255}"
+                        },
+                        {
+                            "function": "copy_nbt",
+                            "ops": [
+                                {
+                                    "source": "data",
+                                    "op": "append",
+                                    "target": "display.Lore"
+                                }
+                            ],
+                            "source": {
+                                "type": "storage",
+                                "source": "tower_defence:data"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

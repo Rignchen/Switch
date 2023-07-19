@@ -1,13 +1,13 @@
-item replace entity @s inventory.0 with pig_spawn_egg{             display:{Name:'{"text": "Pig"}'}}
-item replace entity @s inventory.1 with zombie_spawn_egg{          display:{Name:'{"text": "Zombie"}'}}
-item replace entity @s inventory.2 with zombified_piglin_spawn_egg{display:{Name:'{"text": "Pigman"}'}}
-item replace entity @s inventory.3 with wither_skeleton_spawn_egg{ display:{Name:'{"text": "Wither Skeleton"}'}}
-item replace entity @s inventory.4 with turtle_spawn_egg{          display:{Name:'{"text": "Turtle"}'}}
-item replace entity @s inventory.5 with slime_spawn_egg{           display:{Name:'{"text": "Slime"}'}}
-item replace entity @s inventory.6 with iron_golem_spawn_egg{      display:{Name:'{"text": "Iron Golem"}'}}
-item replace entity @s inventory.7 with vindicator_spawn_egg{      display:{Name:'{"text": "Johnny"}'}}
-item replace entity @s inventory.8 with chicken_spawn_egg{         display:{Name:'{"text": "Chicken"}'}}
-item replace entity @s inventory.9 with zombie_spawn_egg{          display:{Name:'{"text": "Giant"}'}}
+function switch:modes/tower_defense/load/egg/pig
+function switch:modes/tower_defense/load/egg/zombie
+function switch:modes/tower_defense/load/egg/pigman
+function switch:modes/tower_defense/load/egg/wither_skeleton
+function switch:modes/tower_defense/load/egg/turtle
+function switch:modes/tower_defense/load/egg/slime
+function switch:modes/tower_defense/load/egg/iron_golem
+function switch:modes/tower_defense/load/egg/johnny
+function switch:modes/tower_defense/load/egg/chicken
+function switch:modes/tower_defense/load/egg/giant
 
 #zombie = basic
 #piggy = give money when die
