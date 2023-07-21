@@ -13,6 +13,15 @@ scoreboard objectives add tower_defense.coin dummy
 scoreboard objectives add tower_defense.id dummy
 function switch:modes/tower_defense/load/constantes
 
+bossbar add tower_defense.blue "Blaues Schloss"
+bossbar set tower_defense.blue color blue
+bossbar set tower_defense.blue players @a
+bossbar set tower_defense.blue style notched_6
+bossbar add tower_defense.red "Rotes Schloss"
+bossbar set tower_defense.red color red
+bossbar set tower_defense.red players @a
+bossbar set tower_defense.red style notched_6
+
 team add tower_defense.red
 team modify tower_defense.red color red
 team modify tower_defense.red collisionRule pushOwnTeam
@@ -25,15 +34,6 @@ team modify tower_defense.blue collisionRule pushOwnTeam
 team modify tower_defense.blue friendlyFire false
 execute store result bossbar tower_defense.blue max run scoreboard players get #blue_castel tower_defense.temp
 execute store result bossbar tower_defense.blue value run scoreboard players get #blue_castel tower_defense.temp
-
-bossbar add tower_defense.blue "Blue Castel"
-bossbar set tower_defense.blue color blue
-bossbar set tower_defense.blue players @a
-bossbar set tower_defense.blue style notched_6
-bossbar add tower_defense.red "Red Castel"
-bossbar set tower_defense.red color red
-bossbar set tower_defense.red players @a
-bossbar set tower_defense.red style notched_6
 
 ## Téléportation des joueurs + give d'items
 scoreboard players set #is_adventure switch.data 1
